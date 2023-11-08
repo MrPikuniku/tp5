@@ -8,6 +8,9 @@ class Post
     public $identifier;
 }
 
+require_once('src/lib/database.php');
+
+
 class PostRepository
 {
     public $database = null;
